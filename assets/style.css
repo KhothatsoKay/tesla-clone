@@ -93,3 +93,155 @@ button{
     background-color: #e4e4e2;
     color: black;
 }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-styles {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 16px;
+    }
+    
+    .middle-menu, .right-menu {
+        margin-top: 10px;
+    }
+    
+    .nav-item {
+        margin: 5px 0;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+    
+    .title-section {
+        margin-top: 55px;
+    }
+    
+    h1 {
+        font-size: 32px;
+    }
+    
+    p {
+        padding: 6px 12px 12px 12px;
+    }
+    
+    button {
+        width: 160px;
+        padding: 7px 16px;
+        font-size: 12px;
+        margin: 5px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-styles {
+        justify-content: space-between;
+        padding: 0 24px;
+    }
+    
+    .nav-item {
+        margin: 0;
+    }
+    
+    .middle-menu, .right-menu {
+        display: none;
+    }
+    
+    .logo {
+        width: 100px;
+    }
+    
+    .title-section {
+        margin-top: 45px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    p {
+        padding: 6px 12px 12px 12px;
+    }
+    
+    button {
+        width: 160px;
+        padding: 7px 16px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-styles {
+        justify-content: space-between;
+        padding: 0 24px;
+    }
+    
+    .nav-item {
+        margin: 0;
+        padding: 5px 10px;
+    }
+    
+    .middle-menu, .right-menu {
+        display: none;
+    }
+    
+    .logo {
+        width: 80px;
+    }
+    
+    .title-section {
+        margin-top: 35px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    p {
+        padding: 6px 12px 12px 12px;
+    }
+    
+    button {
+        width: 140px;
+        padding: 6px 14px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .nav-styles {
+        justify-content: space-between;
+        padding: 0 16px;
+    }
+    
+    .nav-item {
+        margin: 0;
+        padding: 5px 10px;
+    }
+    
+    .middle-menu, .right-menu {
+        display: none;
+    }
+    
+    .logo {
+        width: 70px;
+    }
+    
+    .title-section {
+        margin-top: 30px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    p {
+        padding: 6px 10px 12px 10px;
+    }
+    
+    button {
+        width: 120px;
+        padding: 5px 12px;
+        font-size: 10px;
+    }
+}
